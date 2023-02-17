@@ -1,1 +1,3 @@
 # mailvalidation
+This video will verify for you whether the email we received has a social tag or not using an automation script. It will check if the subject and email body match the expected ones. First, the script will open the Chrome browser, then log in to the email account. After logging in, the script will send an email with a social tag applied. We will go to the social tab because we applied the social tag. At the bottom left side, a tooltip is appearing, so we will wait for it to become invisible. After that, the sent email will be marked with a starred mark, and we will go to the primary tab, which is the inbox. The same email will be opened and verified if it has the expected subject and body. If it is as expected, a message will be printed in the console.
+
